@@ -39,7 +39,7 @@ const ContactInfo = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 text-base">
-                info@[agencyname].com
+                info@innovateagency.com
               </p>
             </CardContent>
           </Card>
