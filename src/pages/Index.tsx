@@ -1,9 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import ResultsMetrics from "@/components/home/ResultsMetrics";
+import ServicesOverview from "@/components/home/ServicesOverview";
+import FeaturedLeader from "@/components/home/FeaturedLeader";
+import TeamTeaser from "@/components/home/TeamTeaser";
+import TestimonialsSection from "@/components/home/TestimonialsSection";
+import ContactFormSection from "@/components/home/ContactFormSection";
+import NewsletterSection from "@/components/home/NewsletterSection";
 
 const Index = () => {
   return (
-    <div className="min-h-[calc(100vh-64px-200px)] flex flex-col"> {/* Adjust min-height based on header/footer */}
+    <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-gray-900 to-gray-700 text-white py-24 md:py-32 flex items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/placeholder.svg')" }}></div>
@@ -25,7 +32,13 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Other sections will go here */}
+      <ResultsMetrics />
+      <ServicesOverview />
+      <FeaturedLeader />
+      <TeamTeaser />
+      <TestimonialsSection />
+      <ContactFormSection />
+      <NewsletterSection />
     </div>
   );
 };
