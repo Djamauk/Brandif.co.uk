@@ -18,12 +18,12 @@ const TermsAndConditions = () => {
         <div className="container mx-auto px-6 max-w-4xl prose prose-lg text-gray-700">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
           <p>
-            By accessing or using the services provided by Brandif, you agree to be bound by these Terms and Conditions. If you disagree with any part of the terms, then you may not access the service.
+            By accessing or using the services provided by Brandif Agency, you agree to be bound by these Terms and Conditions. If you disagree with any part of the terms, then you may not access the service.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">2. Services Provided</h2>
           <p>
-            Brandif provides web design & development, AI voice agents, AI chatbots, and other digital marketing and AI solutions. The specifics of each service will be outlined in a separate service agreement or proposal.
+            Brandif Agency provides web design & development, AI voice agents, AI chatbots, and other digital marketing and AI solutions. The specifics of each service will be outlined in a separate service agreement or proposal.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">3. User Obligations</h2>
@@ -36,12 +36,12 @@ const TermsAndConditions = () => {
 
           <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">4. Intellectual Property</h2>
           <p>
-            All content, trademarks, and data on this website, including but not limited to software, databases, text, graphics, icons, and hyperlinks, are the property of or licensed to Brandif.
+            All content, trademarks, and data on this website, including but not limited to software, databases, text, graphics, icons, and hyperlinks, are the property of or licensed to Brandif Agency.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">5. Limitation of Liability</h2>
           <p>
-            Brandif shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.
+            Brandif Agency shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">6. Governing Law</h2>
