@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
         <div className="container mx-auto px-6 max-w-4xl prose prose-lg text-gray-700">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">1. Introduction</h2>
           <p>
-            Welcome to Innovate Agency's Privacy Policy. We are committed to protecting your personal data and respecting your privacy. This policy outlines how we collect, use, process, and disclose your information when you use our website and services.
+            Welcome to Brandif's Privacy Policy. We are committed to protecting your personal data and respecting your privacy. This policy outlines how we collect, use, process, and disclose your information when you use our website and services.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">2. Data We Collect</h2>

@@ -39,7 +39,7 @@ const NewsletterSection = () => {
           Join our newsletter for the latest updates.
         </h2>
         <p className="text-lg md:text-xl text-gray-700 mb-12">
-          Stay informed about industry insights, marketing trends, and exclusive offers from [Agency Name].
+          Stay informed about industry insights, marketing trends, and exclusive offers from Brandif.
         </p>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">

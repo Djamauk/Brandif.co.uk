@@ -27,7 +27,7 @@ const MobileNav = () => {
       </SheetTrigger>
       <SheetContent side="left" className="w-[250px] sm:w-[300px] flex flex-col">
         <Link to="/" className="text-2xl font-bold text-primary mb-8" onClick={closeSheet}>
-          Innovate Agency
+          Brandif
         </Link>
         <nav className="flex flex-col gap-4 text-lg">
           <Link to="/" className="text-gray-700 hover:text-primary font-medium transition-colors" onClick={closeSheet}>Home</Link>

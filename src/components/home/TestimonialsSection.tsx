@@ -4,15 +4,15 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Our brand's online presence has skyrocketed since partnering with [Agency Name]. Their strategic approach and creative execution are unparalleled!",
+    quote: "Our brand's online presence has skyrocketed since partnering with Brandif. Their strategic approach and creative execution are unparalleled!",
     author: "Sarah L., Tech Startup CEO",
   },
   {
-    quote: "The team at [Agency Name] truly understands our vision. They delivered an ROI that exceeded all our expectations. Highly recommend!",
+    quote: "The team at Brandif truly understands our vision. They delivered an ROI that exceeded all our expectations. Highly recommend!",
     author: "Mark T., E-commerce Founder",
   },
   {
-    quote: "Exceptional service and brilliant results. [Agency Name] transformed our marketing efforts and helped us reach new audiences.",
+    quote: "Exceptional service and brilliant results. Brandif transformed our marketing efforts and helped us reach new audiences.",
     author: "Jessica R., Retail Brand Manager",
   },
 ];
