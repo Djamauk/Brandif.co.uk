@@ -5,11 +5,11 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 px-6 md:px-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 className="text-2xl font-bold text-white mb-4">Innovate Agency</h3>
           <p className="text-sm">
-            Unlocking bold ideas and turning them into brand-defining moves.
+            Premium Websites & AI Solutions Built for Growth.
           </p>
           <div className="flex space-x-4 mt-6">
             <a href="https://instagram.com/innovateagency" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
@@ -28,9 +28,21 @@ const Footer = () => {
           <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
           <ul className="space-y-2">
             <li><Link to="/" className="hover:text-white transition-colors">Home</Link></li>
-            <li><Link to="/services" className="hover:text-white transition-colors">Services</Link></li>
+            <li><Link to="/about-us" className="hover:text-white transition-colors">About Us</Link></li>
+            <li><Link to="/ai-solutions" className="hover:text-white transition-colors">Services</Link></li>
+            <li><Link to="/case-studies" className="hover:text-white transition-colors">Case Studies</Link></li>
+            <li><Link to="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
+            <li><Link to="/blog" className="hover:text-white transition-colors">Insights</Link></li>
             <li><Link to="/our-team" className="hover:text-white transition-colors">Our Team</Link></li>
             <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-lg font-semibold text-white mb-4">Legal</h4>
+          <ul className="space-y-2">
+            <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+            <li><Link to="/terms-and-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link></li>
           </ul>
         </div>
 
