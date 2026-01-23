@@ -14,8 +14,9 @@ const ContactInfo = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 text-base">
-                123 Marketing Ave, Suite 400<br />
-                Brand City, BC 12345
+                Rosefield Gardens, Poplar<br />
+                London, E14 8ER<br />
+                United Kingdom
               </p>
             </CardContent>
           </Card>

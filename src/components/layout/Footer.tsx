@@ -49,8 +49,9 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
           <p className="text-sm">
-            123 Marketing Ave, Suite 400<br />
-            Brand City, BC 12345<br />
+            Rosefield Gardens, Poplar<br />
+            London, E14 8ER<br />
+            United Kingdom<br />
             info@brandif.co.uk<br />
             (123) 456-7890
           </p>
