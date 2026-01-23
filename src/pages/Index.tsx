@@ -7,15 +7,15 @@ import TeamTeaser from "@/components/home/TeamTeaser";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import ContactFormSection from "@/components/home/ContactFormSection";
 import NewsletterSection from "@/components/home/NewsletterSection";
-import TrustSignals from "@/components/home/TrustSignals"; // New import
-import AIDifferentiationSection from "@/components/home/AIDifferentiationSection"; // New import
+import TrustSignals from "@/components/home/TrustSignals";
+import AIDifferentiationSection from "@/components/home/AIDifferentiationSection";
 
 const Index = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-900 to-gray-700 text-white py-24 md:py-32 flex items-center justify-center text-center overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: "url('/placeholder.svg')" }}></div>
+      <section className="relative bg-gradient-to-br from-primary to-secondary text-white py-24 md:py-32 flex items-center justify-center text-center overflow-hidden">
+        {/* Removed the absolute inset-0 div with opacity-20 to remove shading */}
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up">
             Premium Websites & AI Solutions Built for Growth.
@@ -34,10 +34,10 @@ const Index = () => {
         </div>
       </section>
 
-      <TrustSignals /> {/* New component */}
+      <TrustSignals />
       <ResultsMetrics />
-      <ServicesOverview /> {/* This will be updated next */}
-      <AIDifferentiationSection /> {/* New component */}
+      <ServicesOverview />
+      <AIDifferentiationSection />
       <FeaturedLeader />
       <TeamTeaser />
       <TestimonialsSection />
