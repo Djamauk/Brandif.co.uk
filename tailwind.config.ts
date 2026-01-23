@@ -25,48 +25,43 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(var(--primary))", // Deep Navy
+          foreground: "hsl(var(--primary-foreground))", // Light Grey for text on primary
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "hsl(var(--secondary))", // Charcoal Grey
+          foreground: "hsl(var(--secondary-foreground))", // Light Grey for text on secondary
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))", // Electric Blue
+          foreground: "hsl(var(--accent-foreground))", // White/Light Grey for text on accent
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "hsl(var(--muted))", // Lighter Charcoal Grey
+          foreground: "hsl(var(--muted-foreground))", // Charcoal Grey
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "hsl(var(--popover))", // Light Grey
+          foreground: "hsl(var(--popover-foreground))", // Deep Navy
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "hsl(var(--card))", // Light Grey
+          foreground: "hsl(var(--card-foreground))", // Deep Navy
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        // Removed sidebar specific colors as they can be derived from the main palette
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"], // Secondary Font (Body)
+        heading: ["'Inter Tight'", "sans-serif"], // Primary Font (Headings) - using Inter Tight as Satoshi is not freely available
       },
       keyframes: {
         "accordion-down": {
