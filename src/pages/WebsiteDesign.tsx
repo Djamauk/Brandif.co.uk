@@ -46,9 +46,9 @@ const WebsiteDesign = () => {
             <div className="animate-fade-in-up delay-200">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Benefits & Outcomes</h3>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Increased conversion rates and lead generation.</li>
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Enhanced brand credibility and online presence.</li>
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Seamless user experience across all devices.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Faster load times and improved user experience.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Higher conversion rates and increased lead generation.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Enhanced brand credibility and premium perception.</li>
                 <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Scalable architecture for future growth.</li>
               </ul>
             </div>

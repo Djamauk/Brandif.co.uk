@@ -46,18 +46,18 @@ const AIChatbots = () => {
             <div className="animate-fade-in-up delay-200">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Benefits & Outcomes</h3>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> 24/7 instant customer support and query resolution.</li>
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Increased lead generation and qualification.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> More leads and higher qualification rates.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Better engagement and improved customer satisfaction.</li>
                 <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Reduced workload for human support teams.</li>
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Enhanced user engagement and personalised experiences.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> 24/7 instant customer support and query resolution.</li>
               </ul>
             </div>
             <div className="animate-fade-in-up delay-300">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Use Cases</h3>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start"><MessageCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Website customer service and FAQs.</li>
-                <li className="flex items-start"><Bot className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Lead capture and qualification forms.</li>
-                <li className="flex items-start"><Settings className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Product recommendations and guided selling.</li>
+                <li className="flex items-start"><MessageCircle className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Website sales assistant and product recommendations.</li>
+                <li className="flex items-start"><Bot className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Support automation and FAQ handling.</li>
+                <li className="flex items-start"><Settings className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Lead capture and qualification forms.</li>
                 <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Internal support for employees.</li>
               </ul>
             </div>

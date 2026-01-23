@@ -46,19 +46,19 @@ const AIVoiceAgents = () => {
             <div className="animate-fade-in-up delay-200">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Benefits & Outcomes</h3>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Reduced operational costs and increased efficiency.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> 24/7 availability for uninterrupted customer support.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Reduced staff costs and increased operational efficiency.</li>
                 <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Improved customer satisfaction with instant support.</li>
                 <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Scalable support for peak times and business growth.</li>
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Consistent brand voice and service quality.</li>
               </ul>
             </div>
             <div className="animate-fade-in-up delay-300">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Use Cases</h3>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start"><Mic className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Automated customer service hotlines.</li>
+                <li className="flex items-start"><Mic className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Lead qualification and outbound calls.</li>
                 <li className="flex items-start"><Headset className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Appointment scheduling and reminders.</li>
-                <li className="flex items-start"><Zap className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Order status updates and FAQs.</li>
-                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Lead qualification and outbound calls.</li>
+                <li className="flex items-start"><Zap className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Automated customer service hotlines.</li>
+                <li className="flex items-start"><CheckCircle2 className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" /> Order status updates and FAQs.</li>
               </ul>
             </div>
           </div>
