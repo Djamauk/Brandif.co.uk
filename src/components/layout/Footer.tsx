@@ -51,7 +51,7 @@ const Footer = () => {
           <p className="text-sm">
             123 Marketing Ave, Suite 400<br />
             Brand City, BC 12345<br />
-            info@brandif.com<br />
+            info@brandif.co.uk<br />
             (123) 456-7890
           </p>
         </div>
