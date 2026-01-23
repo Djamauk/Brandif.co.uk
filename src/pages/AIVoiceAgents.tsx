@@ -6,12 +6,12 @@ import { Mic, Headset, Zap, CheckCircle2 } from "lucide-react";
 const AIVoiceAgents = () => {
   return (
     <div className="flex flex-col">
-      <section className="py-20 md:py-28 bg-gradient-to-br from-primary to-blue-800 text-white text-center">
+      <section className="py-20 md:py-28 bg-gradient-to-br from-primary to-secondary text-white text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up text-white">
             AI Voice Agents
           </h1>
-          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200">
+          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200 text-white">
             AI-Powered Experiences That Drive Results. Automate customer interactions and enhance service with intelligent, natural-sounding voice agents.
           </p>
           <Button asChild size="lg" className="bg-primary-foreground text-primary hover:bg-gray-200 transition-colors animate-fade-in-up delay-400">

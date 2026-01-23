@@ -6,12 +6,12 @@ import { CheckCircle2 } from "lucide-react";
 const WebsiteDesign = () => {
   return (
     <div className="flex flex-col">
-      <section className="py-20 md:py-28 bg-gradient-to-br from-primary to-blue-800 text-white text-center">
+      <section className="py-20 md:py-28 bg-gradient-to-br from-primary to-secondary text-white text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up text-white">
             Website Design & Development
           </h1>
-          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200">
+          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200 text-white">
             Designed to Convert. Built to Scale. We craft high-performance websites that are not just visually stunning, but engineered for measurable business growth.
           </p>
           <Button asChild size="lg" className="bg-primary-foreground text-primary hover:bg-gray-200 transition-colors animate-fade-in-up delay-400">

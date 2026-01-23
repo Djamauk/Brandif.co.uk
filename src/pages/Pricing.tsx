@@ -76,12 +76,12 @@ const aiChatbotPricing = {
 const Pricing = () => {
   return (
     <div className="flex flex-col">
-      <section className="py-20 md:py-28 bg-gradient-to-br from-gray-900 to-gray-700 text-white text-center">
+      <section className="py-20 md:py-28 bg-gradient-to-br from-primary to-secondary text-white text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up text-white">
             Pricing & Packages
           </h1>
-          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200">
+          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200 text-white">
             Transparent pricing for high-performance websites and intelligent AI solutions. Find the perfect plan for your business.
           </p>
         </div>
@@ -161,7 +161,7 @@ const Pricing = () => {
                   {aiChatbotPricing.features.map((feature, fIndex) => (
                     <li key={fIndex} className="flex items-center">
                       <CheckCircle2 className="h-5 w-5 text-primary mr-2 flex-shrink-0" /> {feature}
-                    </li>
+                    </li >
                   ))}
                 </ul>
               </CardContent>
