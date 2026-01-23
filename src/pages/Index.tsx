@@ -14,13 +14,12 @@ const Index = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary to-secondary text-white py-24 md:py-32 flex items-center justify-center text-center overflow-hidden">
-        {/* Removed the absolute inset-0 div with opacity-20 to remove shading */}
+      <section className="relative bg-gray-900 text-white py-24 md:py-32 flex items-center justify-center text-center overflow-hidden">
         <div className="relative z-10 max-w-4xl mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up text-white">
             Premium Websites & AI Solutions Built for Growth.
           </h1>
-          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200">
+          <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200 text-white">
             We design high-performance websites and intelligent AI agents that help businesses convert, scale, and operate smarter.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-up delay-400">
