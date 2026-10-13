@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { SeoService } from '../../../services/seo.service';
 
 interface Article {
   id: string;
@@ -241,7 +242,7 @@ export class ArticleDetailComponent implements OnInit {
   article: Article = this.allArticles[0];
   relatedArticles: any[] = [];
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private seo: SeoService) {}
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
@@ -250,6 +251,14 @@ export class ArticleDetailComponent implements OnInit {
         const found = this.allArticles.find(a => a.id === id);
         if (found) {
           this.article = found;
+          const firstParagraph = (found.content.match(/<p>([\s\S]*?)<\/p>/)?.[1] ?? '').replace(/<[^>]+>/g, '').trim();
+          const description = firstParagraph.length > 155 ? firstParagraph.slice(0, 152).replace(/\s+\S*$/, '') + '...' : firstParagraph;
+          this.seo.set({
+            title: `${found.title} | Brandif`,
+            description: description || `${found.title}, an article by Brandif.`,
+            path: `/insights/${found.id}`,
+            type: 'article'
+          });
           this.relatedArticles = this.allArticles
             .filter(a => a.id !== id)
             .slice(0, 3);
