@@ -39,7 +39,7 @@ export class InsightsComponent {
     author: 'BRANDif',
     date: 'Jan 28, 2026',
     image: 'images/insights-hero.png',
-    readTime: '8'
+    readTime: '3'
   };
 
   articles: Article[] = [
@@ -51,7 +51,7 @@ export class InsightsComponent {
       author: 'BRANDif',
       date: 'Jan 25, 2026',
       image: 'images/ecommerce-hero.png',
-      readTime: '12'
+      readTime: '2'
     },
     {
       id: 'ppc-vs-seo-investment',
@@ -61,7 +61,7 @@ export class InsightsComponent {
       author: 'BRANDif',
       date: 'Jan 22, 2026',
       image: 'images/ppc-hero.png',
-      readTime: '10'
+      readTime: '3'
     },
     {
       id: 'seo-in-2026-changes',
@@ -71,7 +71,7 @@ export class InsightsComponent {
       author: 'BRANDif',
       date: 'Jan 18, 2026',
       image: 'images/seo-hero.png',
-      readTime: '9'
+      readTime: '2'
     },
     {
       id: 'roi-chatbot-implementation',
@@ -81,7 +81,7 @@ export class InsightsComponent {
       author: 'BRANDif',
       date: 'Jan 15, 2026',
       image: 'images/consultancy-hero.png',
-      readTime: '7'
+      readTime: '2'
     }
   ];
 
