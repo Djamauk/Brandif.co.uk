@@ -28,13 +28,13 @@ export class ArticleDetailComponent implements OnInit {
       id: 'ai-voice-agents-transforming',
       title: 'How AI Voice Agents Are Transforming Customer Service',
       category: 'AI & Automation',
-      author: 'BRANDif',
-      role: 'CEO & Founder',
+      author: 'Dr Said Dirie',
+      role: 'Founder, Brandif',
       date: 'Jan 28, 2026',
       readTime: '3',
       image: 'images/insights-hero.png',
       excerpt: 'Explore the revolutionary shift as businesses adopt AI voice technology to provide 24/7 support...',
-      bio: 'Dedicated to helping businesses leverage technology for sustainable growth.',
+      bio: 'Founder of Brandif, a London digital agency specialising in AI chatbots, AI voice agents and website design.',
       content: `
         <p class="text-xl leading-relaxed text-slate-700 dark:text-slate-300 font-medium mb-8">As technology continues to evolve at a breakneck pace, Artificial Intelligence has moved from a buzzword to a critical component of modern business operations. Specifically, AI Voice Agents are redefining how companies think about customer service and engagement in 2026.</p>
         
@@ -50,11 +50,11 @@ export class ArticleDetailComponent implements OnInit {
         <p>Whether it's a Black Friday rush or a sudden service outage, AI Agents can handle thousands of concurrent calls. There are no wait times, no "all our operators are busy" messages, and no frustrated customers hanging up.</p>
 
         <div class="my-12 p-10 rounded-[2.5rem] bg-slate-50 dark:bg-white/[0.03] border-l-8 border-brand-primary italic text-xl font-bold text-slate-800 dark:text-slate-200">
-          "The goal of AI in customer service isn't to replace humans, but to handle the 80% of mundane tasks so that humans can focus on high-value, complex emotional interactions that require empathy."
+          "The goal of AI in customer service isn't to replace humans, but to handle the mundane, repetitive tasks so that humans can focus on high-value, complex emotional interactions that require empathy."
         </div>
 
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">Operational ROI: The Hard Numbers</h2>
-        <p>Beyond customer satisfaction, the financial argument for AI Voice is undeniable. Traditional call center costs range from £5 to £15 per interaction. AI Voice Agents reduce this cost to pennies per minute. Businesses typically see a return on investment within the first 3 to 6 months of full deployment.</p>
+        <p>Beyond customer satisfaction, the financial argument for AI Voice is undeniable. Traditional call centre costs can run to several pounds per interaction, while AI Voice Agents handle the same volume at a fraction of that cost. Many businesses see a return on investment within the first months of full deployment, though results depend on call volume and use case.</p>
         <ul class="space-y-4 my-8">
             <li><strong>Reduced AT (Average Talk Time):</strong> AI gets to the point faster and has instant access to database information without "putting you on hold."</li>
             <li><strong>Lower Churn:</strong> Immediate problem resolution leads to higher customer loyalty and lifetime value.</li>
@@ -73,13 +73,13 @@ export class ArticleDetailComponent implements OnInit {
       id: 'choosing-right-ecommerce-platform',
       title: 'Choosing the Right eCommerce Platform for Your Business',
       category: 'eCommerce',
-      author: 'BRANDif',
-      role: 'CEO & Founder',
+      author: 'Dr Said Dirie',
+      role: 'Founder, Brandif',
       date: 'Jan 25, 2026',
       readTime: '2',
       image: 'images/ecommerce-hero.png',
       excerpt: 'A comprehensive comparison of Shopify, WooCommerce, and Custom solutions for growth.',
-      bio: 'Expert in architecting high-conversion digital commerce ecosystems.',
+      bio: 'Founder of Brandif, a London digital agency specialising in AI chatbots, AI voice agents and website design.',
       content: `
         <p class="text-xl leading-relaxed text-slate-700 dark:text-slate-300 font-medium mb-8">Selecting the right eCommerce platform is one of the most significant technical and strategic decisions a business can make. It impacts your speed to market, your ability to customize, and ultimately, your bottom line in an increasingly crowded digital landscape.</p>
         
@@ -102,10 +102,10 @@ export class ArticleDetailComponent implements OnInit {
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">Key Features Every Modern Store Needs</h2>
         <p>Regardless of the platform, your tech stack must support several non-negotiable features in 2026:</p>
         <ul class="space-y-4 my-8">
-            <li><strong>Mobile-First Architecture:</strong> Over 70% of traffic is mobile. If your platform isn't blazing fast on a 4G connection, you are losing money.</li>
+            <li><strong>Mobile-First Architecture:</strong> A majority of eCommerce traffic now comes from mobile devices. If your platform isn't blazing fast on a 4G connection, you are losing money.</li>
             <li><strong>Omnichannel Readiness:</strong> You should be able to push products to TikTok, Instagram, and Amazon from a single source of truth.</li>
             <li><strong>Advanced SEO Capabilities:</strong> Schema markup, clean URL structures, and fast Core Web Vitals are essential for organic dominance.</li>
-            <li><strong>Frictionless Checkout:</strong> Every extra click in your checkout process reduces your conversion rate by 10-15%.</li>
+            <li><strong>Frictionless Checkout:</strong> Every extra click in your checkout process can measurably reduce your conversion rate.</li>
         </ul>
 
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">The Long-term Cost of Ownership (TCO)</h2>
@@ -119,13 +119,13 @@ export class ArticleDetailComponent implements OnInit {
       id: 'ppc-vs-seo-investment',
       title: 'PPC vs SEO: Which Should You Invest In First?',
       category: 'Marketing Strategy',
-      author: 'BRANDif',
-      role: 'CEO & Founder',
+      author: 'Dr Said Dirie',
+      role: 'Founder, Brandif',
       date: 'Jan 22, 2026',
       readTime: '3',
       image: 'images/ppc-hero.png',
       excerpt: 'Understanding the balance between immediate results and long-term sustainability.',
-      bio: 'Strategist focused on multi-channel growth and ROI optimization.',
+      bio: 'Founder of Brandif, a London digital agency specialising in AI chatbots, AI voice agents and website design.',
       content: `
         <p class="text-xl leading-relaxed text-slate-700 dark:text-slate-300 font-medium mb-8">The debate between Paid Search (PPC) and Organic Search (SEO) is as old as the search engines themselves. For a business looking to grow, the question isn't usually "which is better," but "which one should we prioritize right now?"</p>
         
@@ -161,13 +161,13 @@ export class ArticleDetailComponent implements OnInit {
       id: 'seo-in-2026-changes',
       title: "SEO in 2026: What's Changed and What Hasn't",
       category: 'SEO',
-      author: 'BRANDif',
-      role: 'CEO & Founder',
+      author: 'Dr Said Dirie',
+      role: 'Founder, Brandif',
       date: 'Jan 18, 2026',
       readTime: '2',
       image: 'images/seo-hero.png',
       excerpt: 'Analyze the latest search algorithm updates and authority factors.',
-      bio: 'Staying ahead of the algorithm to ensure brand dominance.',
+      bio: 'Founder of Brandif, a London digital agency specialising in AI chatbots, AI voice agents and website design.',
       content: `
         <p class="text-xl leading-relaxed text-slate-700 dark:text-slate-300 font-medium mb-8">Search Engine Optimisation has been declared "dead" every year for the last decade. Yet, in 2026, it remains the single most important source of high-intent traffic for digital businesses. But let's be clear: the SEO of 2026 bears little resemblance to the SEO of 2020.</p>
         
@@ -179,7 +179,7 @@ export class ArticleDetailComponent implements OnInit {
         <p>If your content looks like it was written by a generic bot, it won't rank. You need to provide a "Human Premium"—content that has a voice, a personality, and a verifiable author with a history in the niche.</p>
 
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">The Technical Foundation: Speed as a Feature</h2>
-        <p>Core Web Vitals are no longer a "bonus" factor; they are the ticket to entry. A website that takes longer than 2 seconds to load is effectively invisible to modern search engines. But technical SEO in 2026 also includes:</p>
+        <p>Core Web Vitals are no longer a "bonus" factor; they are the ticket to entry. A slow website is at a real disadvantage with modern search engines and visitors alike. But technical SEO in 2026 also includes:</p>
         <ul class="space-y-4 my-8">
             <li><strong>Semantic Schema Markup:</strong> Helping AI agents understand not just what your text says, but what it *means*.</li>
             <li><strong>Headless Performance:</strong> Using modern frameworks like Next.js to provide instantaneous transitions.</li>
@@ -198,13 +198,13 @@ export class ArticleDetailComponent implements OnInit {
       id: 'roi-chatbot-implementation',
       title: 'The ROI of Chatbot Implementation: Real Numbers',
       category: 'AI & Automation',
-      author: 'BRANDif',
-      role: 'CEO & Founder',
+      author: 'Dr Said Dirie',
+      role: 'Founder, Brandif',
       date: 'Jan 15, 2026',
       readTime: '2',
       image: 'images/consultancy-hero.png',
       excerpt: 'Breaking down the financial impact and efficiency gains of support bots.',
-      bio: 'Automation specialist helping companies scale through intelligent agents.',
+      bio: 'Founder of Brandif, a London digital agency specialising in AI chatbots, AI voice agents and website design.',
       content: `
         <p class="text-xl leading-relaxed text-slate-700 dark:text-slate-300 font-medium mb-8">Calculating the Return on Investment (ROI) for AI technology often feels like trying to catch smoke. However, when it comes to intelligent chatbots, the data from 2025 and 2026 has provided us with a very clear financial picture.</p>
         
@@ -212,22 +212,22 @@ export class ArticleDetailComponent implements OnInit {
         <p>When we evaluate a chatbot project at Brandif, we look at two distinct buckets: <strong>Direct ROI</strong> (Cost Savings) and <strong>Indirect ROI</strong> (Revenue Growth and Brand Value).</p>
 
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">Direct ROI: Slashing Operational Costs</h2>
-        <p>The most immediate impact is on the cost of support. A human agent can handle one or two chats at a time. An AI Chatbot can handle 10,000 simultaneously. This results in a radical shift in your support overhead.</p>
+        <p>The most immediate impact is on the cost of support. A human agent can handle one or two chats at a time. An AI Chatbot can handle thousands simultaneously. This results in a radical shift in your support overhead.</p>
         <ul class="space-y-4 my-8">
-            <li><strong>Cost Per Ticket:</strong> Average human-led support tickets cost between £5-£15. AI-led tickets cost roughly £0.05.</li>
-            <li><strong>Resolution Rate:</strong> Modern AI bots can now resolve up to 85% of common enquiries without needing to escalate to a human.</li>
+            <li><strong>Cost Per Ticket:</strong> Human-handled support tickets typically cost far more than AI-handled conversations, which cost only a fraction of that.</li>
+            <li><strong>Resolution Rate:</strong> Modern AI bots can resolve a large share of common enquiries without needing to escalate to a human.</li>
             <li><strong>Recruitment Savings:</strong> Avoid the high costs of hiring, training, and managing large support teams as you scale.</li>
         </ul>
 
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">Indirect ROI: Driving New Revenue</h2>
         <p>While cost-cutting is great, the real "magic" happens when chatbots start making you money. This is where most businesses underestimate the impact of AI.</p>
         <h3 class="text-2xl font-black text-slate-900 dark:text-white mt-12 mb-6">Abandoned Cart Recovery</h3>
-        <p>Chatbots can proactively engage users who are lingering on a checkout page, offering real-time answers to the questions that are stopping them from clicking "Buy." This can increase recovery rates by up to 25% compared to email-only strategies.</p>
+        <p>Chatbots can proactively engage users who are lingering on a checkout page, offering real-time answers to the questions that are stopping them from clicking "Buy." This can improve recovery rates compared to email-only strategies.</p>
         <h3 class="text-2xl font-black text-slate-900 dark:text-white mt-12 mb-6">24/7 Lead Qualification</h3>
         <p>If a high-value lead visits your site at midnight on a Saturday, a chatbot is there to qualify them, answer their technical questions, and book a meeting for your sales team on Monday morning. Speed to lead is the #1 predictor of sales success, and bots are the fastest tools in existence.</p>
 
         <div class="my-12 p-10 rounded-[2.5rem] bg-indigo-500/10 border-l-8 border-indigo-500 italic text-xl font-bold text-slate-800 dark:text-slate-200">
-          "On average, our clients see a 40% reduction in support volume while simultaneously seeing a 15% increase in online conversion rates within 90 days of implementation."
+          "The best chatbot deployments cut repetitive support volume while keeping a clear, friendly route to a human whenever a customer needs one."
         </div>
 
         <h2 class="text-3xl font-black text-slate-900 dark:text-white mt-16 mb-8">The "Hidden" ROI: Data and Insights</h2>
