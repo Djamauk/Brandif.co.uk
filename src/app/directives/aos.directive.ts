@@ -13,11 +13,15 @@ export class AosDirective implements OnInit, OnDestroy {
     if (!this.isBrowser) {
       return;
     }
+    const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) {
+      return; // leave content visible, no animation
+    }
+    document.documentElement.classList.add('aos-ready');
     AOS.init({
       duration: 800,
       easing: 'ease-out-cubic',
-      once: false,
-      mirror: true,
+      once: true,
       offset: 100,
       anchorPlacement: 'top-bottom'
     });

@@ -89,3 +89,12 @@
 .dark .noise-overlay {
   opacity: 0.15;
 }
+
+
+/* Scroll-reveal: content is visible by default (crawlers, no-JS, reduced motion).
+   Hiding only applies once the AOS directive has enabled animations. */
+html:not(.aos-ready) [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
